@@ -44,35 +44,6 @@ const sendTweet = async (twitterData: ScheduleTweetInput) => {
       "tokenSecret": tokenSecret
   }
 
-  // axios.post(, {
-  //   "tweet": tweet,
-  //   "schedule_at": isoDate,
-  //   "key": key,
-  //   "secret": secret,
-  //   "token": token,
-  //   "tokenSecret": tokenSecret
-  // }, {
-  //   headers: {
-  //     "Accept": "*/*",
-  //     "User-Agent": "Thunder Client (https://www.thunderclient.com)",
-  //     "Content-Type": "application/json",
-  //     'Access-Control-Allow-Origin': '*',
-  //   }
-  // })
-  // axios(url, {
-  //   method: 'POST',
-  //   mode: 'no-cors',
-  //   headers: {
-  //     'Access-Control-Allow-Origin': '*',
-  //     'Content-Type': 'application/json',
-  //   },
-  //   data: postData,
-  //   withCredentials: false,
-  // }).then(response => {
-  //   console.log(response);
-  // })
-
-
 
   let headersList = {
     "Accept": "*/*",
