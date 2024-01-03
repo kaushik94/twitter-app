@@ -87,24 +87,24 @@ export default function DemoCreateAccount() {
       </CardHeader>
       <CardContent className="grid gap-4">
         <div className="grid gap-2">
-          <Label htmlFor="email">Key</Label>
-          <Input id="email" type="email" placeholder="key" onChange={(e) => setKey(e.target.value)}/>
+          <Label htmlFor="email">API Key</Label>
+          <Input id="email" type="email" placeholder="API Key" onChange={(e) => setKey(e.target.value)}/>
         </div>
         <div className="grid gap-2">
-          <Label htmlFor="email">Token</Label>
-          <Input id="email" type="email" placeholder="m@example.com" onChange={(e) => setToken(e.target.value)} />
+          <Label htmlFor="email">API Secret</Label>
+          <Input id="email" type="email" placeholder="API Secret" onChange={(e) => setSecret(e.target.value)}/>
         </div>
         <div className="grid gap-2">
-          <Label htmlFor="email">Secret</Label>
-          <Input id="email" type="email" placeholder="m@example.com" onChange={(e) => setSecret(e.target.value)}/>
+          <Label htmlFor="email">Access Token</Label>
+          <Input id="email" type="email" placeholder="Access Token" onChange={(e) => setToken(e.target.value)} />
         </div>
         <div className="grid gap-2">
-          <Label htmlFor="email">Token Secret</Label>
-          <Input id="email" type="email" placeholder="m@example.com" onChange={(e) => setTokenSecret(e.target.value)}/>
+          <Label htmlFor="email">Access Secret</Label>
+          <Input id="email" type="email" placeholder="Access Secret" onChange={(e) => setTokenSecret(e.target.value)}/>
         </div>
         <div className="grid gap-2">
           <Label htmlFor="email">Tweet</Label>
-          <Input id="email" type="email" placeholder="m@example.com" onChange={(e) => setTweet(e.target.value)}/>
+          <Input id="email" type="email" placeholder="Tweet your tweet here" onChange={(e) => setTweet(e.target.value)}/>
         </div>
         {/* <div className="grid gap-2">
           <Label htmlFor="password">Tweet</Label>
